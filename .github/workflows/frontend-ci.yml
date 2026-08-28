@@ -56,6 +56,7 @@ jobs:
 
       - name: Run tests
         run: npm test -- --watchAll=false
+<<<<<<< HEAD
 
   build:
     runs-on: ubuntu-latest
@@ -77,3 +78,5 @@ jobs:
           tags: mp-frontend:latest
           build-args: |
             REACT_APP_MOVIE_API_URL=http://localhost:5000
+=======
+>>>>>>> 466190870ff77fccbf6fe1dd4452103ba73519f9
