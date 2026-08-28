@@ -1,13 +1,8 @@
-```yaml
 name: Frontend CI
 
-on:
+"on":
   push:
-    paths:
-      - "starter/frontend/**"
   pull_request:
-    paths:
-      - "starter/frontend/**"
 
 jobs:
   frontend-ci:
@@ -36,4 +31,3 @@ jobs:
 
       - name: Run tests
         run: npm test -- --watchAll=false
-```
